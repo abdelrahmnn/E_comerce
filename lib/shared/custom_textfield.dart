@@ -9,7 +9,7 @@ class MyTextField extends StatelessWidget {
   Widget build(BuildContext context) {
     return TextField(
         keyboardType: TextInputTypee,
-        obscureText: false,
+        obscureText: ispassword,
         decoration: InputDecoration(
           hintText: "Enter Your email : ",
           // To delete borders

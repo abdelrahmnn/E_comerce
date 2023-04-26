@@ -3,8 +3,9 @@
 import 'package:flutter/material.dart';
 
 class MyTextField extends StatelessWidget {
-  const MyTextField({super.key});
-
+  TextInputType TextInputTypee;
+  
+  s
   @override
   Widget build(BuildContext context) {
     return TextField(

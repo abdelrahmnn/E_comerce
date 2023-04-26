@@ -11,7 +11,9 @@ class Home extends StatelessWidget {
     return SafeArea(
       child: Scaffold(
         drawer: Drawer(
-          child:Column() ,
+          child:Column(
+            children: [],
+          ) ,
         ),
         appBar: AppBar(
           actions: [

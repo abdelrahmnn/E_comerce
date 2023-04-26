@@ -25,8 +25,10 @@ class Login extends StatelessWidget {
               fillColor: Colors.red,
               filled: true,
               contentPadding: const EdgeInsets.all(10),
-            )),
+              )),
             
+            
+            const SizedBox(height: 64,),
             
             TextField(
             keyboardType: TextInputType.emailAddress,

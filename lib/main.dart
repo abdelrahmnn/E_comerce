@@ -1,3 +1,4 @@
+import 'package:e_comerce_app/pages/login.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: testttttt(),
+      home: Login(),
     );
   }
 }

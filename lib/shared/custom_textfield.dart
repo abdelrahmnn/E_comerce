@@ -7,6 +7,13 @@ class MyTextField extends StatelessWidget {
   bool ispassword;
   String hinttextt;
 
+  MyTextField({
+
+
+
+
+  })
+
   @override
   Widget build(BuildContext context) {
     return TextField(

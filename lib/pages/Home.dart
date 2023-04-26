@@ -16,7 +16,7 @@ class Home extends StatelessWidget {
               children: [
                 Stack(
                   children: [
-                    Container(child: Text("8",style: TextStyle(color: Color.fromARGB(255, 0, 0, 0)),)),
+                    Positioned(child: Container(child: Text("8",style: TextStyle(color: Color.fromARGB(255, 0, 0, 0)),))),
                     padding: EdgeInsets.all(5),
       decoration: BoxDecoration(
       color: Color.fromARGB(211, 164, 255, 193),

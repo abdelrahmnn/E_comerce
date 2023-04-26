@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 
 class MyTextField extends StatelessWidget {
   TextInputType TextInputTypee;
-  
-  s
+  bool ispassword;
+
   @override
   Widget build(BuildContext context) {
     return TextField(

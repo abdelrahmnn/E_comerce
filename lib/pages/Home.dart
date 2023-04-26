@@ -10,7 +10,14 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        actions: [Text("\$ 13")],
+        actions: [
+          row(
+            children: [
+              Text("\$ 13"),
+              Text("\$ 13"),
+            ],
+          ),
+        ],
         backgroundColor: appbargreen,
         title: Text("home"),
       ),

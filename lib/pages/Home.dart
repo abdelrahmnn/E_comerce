@@ -15,6 +15,7 @@ class Home extends StatelessWidget {
             children: [
               Column(
                 children: [
+                  Text("8"),
                   IconButton(
                     onPressed: () {},
                     icon: Icon(Icons.add_shopping_cart),

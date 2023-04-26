@@ -17,11 +17,19 @@ class Login extends StatelessWidget {
               const SizedBox(
                 height: 64,
               ),
-              MyTextField(),
+              MyTextField(
+                textInputTypee: TextInputType.emailAddress,
+                ispassword: false,
+                hinttextt: "enter email address",
+              ),
               const SizedBox(
                 height: 64,
               ),
-              MyTextField(),
+              MyTextField(
+                textInputTypee: TextInputType.text,
+                ispassword: true,
+                hinttextt: "enter email password",
+              ),
             ],
           ),
         ),

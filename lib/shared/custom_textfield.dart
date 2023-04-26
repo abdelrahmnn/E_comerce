@@ -7,16 +7,12 @@ class MyTextField extends StatelessWidget {
   final bool ispassword;
   final String hinttextt;
 
-  MyTextField({super.key, 
-
+  MyTextField({
+    super.key,
     required this.textInputTypee,
     required this.ispassword,
     required this.hinttextt,
-
-
-
-
-  })
+  });
 
   @override
   Widget build(BuildContext context) {

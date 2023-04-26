@@ -21,7 +21,7 @@ class Login extends StatelessWidget {
               hintText: "Enter Your email : ",
               // To delete borders
               enabledBorder: OutlineInputBorder(borderSide: Divider.createBorderSide(context),),
-              focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: Colors.grey,),),
+              focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: Colors.blue,),),
               // fillColor: Colors.red,
               filled: true,
               contentPadding: const EdgeInsets.all(8),

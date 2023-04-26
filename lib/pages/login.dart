@@ -22,7 +22,7 @@ class Login extends StatelessWidget {
               // To delete borders
               enabledBorder: OutlineInputBorder(borderSide: Divider.createBorderSide(context),),
               focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: Color.fromARGB(255, 243, 191, 33),),),
-              // fillColor: Colors.red,
+              fillColor: Colors.red,
               filled: true,
               contentPadding: const EdgeInsets.all(8),
             ))],

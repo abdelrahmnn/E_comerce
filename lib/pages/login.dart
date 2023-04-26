@@ -15,8 +15,8 @@ class Login extends StatelessWidget {
             children: [
              const SizedBox(height: 64,)
               TextField(
-            keyboardType: TextInputType.emailAddress,
-            obscureText: true,
+            keyboardType: TextInputType.text,
+            obscureText: false,
             decoration: InputDecoration(
               hintText: "Enter Your Password : ",
               // To delete borders

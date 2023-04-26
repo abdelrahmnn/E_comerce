@@ -14,6 +14,7 @@ class Home extends StatelessWidget {
           child:Column(
             children: [
               UserAccountsDrawerHeader(
+                backgroundImage: AssetImage("assets/img/ali.jpg")),
                 accountEmail: Text("ali@yahoo.com"),
                 accountName: Text("ali Hassan",
  style: TextStyle(

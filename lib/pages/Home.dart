@@ -13,9 +13,13 @@ class Home extends StatelessWidget {
         actions: [
           Row(
             children: [
-              IconButton(
-                onPressed: () {},
-                icon: Icon(Icons.add_shopping_cart),
+              Column(
+                children: [
+                  IconButton(
+                    onPressed: () {},
+                    icon: Icon(Icons.add_shopping_cart),
+                  ),
+                ],
               ),
               Padding(
                 padding: const EdgeInsets.only(right: 12),

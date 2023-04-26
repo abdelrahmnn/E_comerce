@@ -12,7 +12,14 @@ class Home extends StatelessWidget {
       child: Scaffold(
         drawer: Drawer(
           child:Column(
-            children: [],
+            children: [
+              UserAccountsDrawerHeader(
+                accountName: Text("ali Hassan",
+ style: TextStyle(
+ color: Color.fromARGB(255, 255, 255, 255),
+ )),
+  accountEmail: accountEmail)
+            ],
           ) ,
         ),
         appBar: AppBar(

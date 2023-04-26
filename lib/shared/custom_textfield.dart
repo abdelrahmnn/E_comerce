@@ -9,6 +9,10 @@ class MyTextField extends StatelessWidget {
 
   MyTextField({
 
+    required this.TextInputTypee,
+    required this.ispassword,
+    required this.hinttextt,
+
 
 
 

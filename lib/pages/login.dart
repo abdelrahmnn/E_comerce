@@ -24,7 +24,7 @@ class Login extends StatelessWidget {
               focusedBorder: OutlineInputBorder(borderSide: BorderSide(color: Color.fromARGB(255, 243, 191, 33),),),
               fillColor: Colors.red,
               filled: true,
-              contentPadding: const EdgeInsets.all(8),
+              contentPadding: const EdgeInsets.all(10),
             ))],
           ),
         ),

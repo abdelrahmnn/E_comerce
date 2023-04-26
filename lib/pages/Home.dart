@@ -11,9 +11,9 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         actions: [
-          row(
+          Row(
             children: [
-              Text("\$ 13"),
+              Text("\$ 13",  style: TextStyle(fontSize: 18,),
               Text("\$ 13"),
             ],
           ),

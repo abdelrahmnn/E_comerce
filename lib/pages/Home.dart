@@ -10,7 +10,9 @@ class Home extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-        drawer: Drawer,
+        drawer: Drawer(
+          child: ,
+        ),
         appBar: AppBar(
           actions: [
             Row(

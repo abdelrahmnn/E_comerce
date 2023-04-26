@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_literals_to_create_immutables
+// ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
 import 'package:flutter/material.dart';
 
@@ -15,7 +15,7 @@ class Login extends StatelessWidget {
             children: [
              const SizedBox(height: 64,)
               TextField(
-            keyboardType: TextInputType.text,
+            keyboardType: TextInputType.emailAddress,
             obscureText: true,
             decoration: InputDecoration(
               hintText: "Enter Your Password : ",

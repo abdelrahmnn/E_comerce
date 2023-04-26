@@ -8,7 +8,7 @@ class MyTextField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextField(
-        keyboardType: TextInputType.emailAddress,
+        keyboardType: TextInputTypee,
         obscureText: false,
         decoration: InputDecoration(
           hintText: "Enter Your email : ",

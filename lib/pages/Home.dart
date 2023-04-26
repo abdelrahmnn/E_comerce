@@ -13,7 +13,7 @@ class Home extends StatelessWidget {
         actions: [
           Row(
             children: [
-              Column(
+              Stack(
                 children: [
                   Text("8"),
                   IconButton(

@@ -11,7 +11,7 @@ class MyTextField extends StatelessWidget {
         keyboardType: TextInputTypee,
         obscureText: ispassword,
         decoration: InputDecoration(
-          hintText: "Enter Your email : ",
+          hintText: hinttextt,
           // To delete borders
           enabledBorder: OutlineInputBorder(
             borderSide: Divider.createBorderSide(context),
